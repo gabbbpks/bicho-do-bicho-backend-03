@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": "1",
+    "numero": 45,
+    "animal": {
+      "group": 12,
+      "name": "Elefante"
+    },
+    "createdAt": "2025-05-01T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "numero": 93,
+    "animal": {
+      "group": 24,
+      "name": "Veado"
+    },
+    "createdAt": "2025-05-01T12:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "numero": 15,
+    "animal": {
+      "group": 4,
+      "name": "Borboleta"
+    },
+    "createdAt": "2025-05-01T15:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "numero": 58,
+    "animal": {
+      "group": 15,
+      "name": "Jacaré"
+    },
+    "createdAt": "2025-05-01T18:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "numero": 42,
+    "animal": {
+      "group": 11,
+      "name": "Cavalo"
+    },
+    "createdAt": "2025-05-01T21:00:00.000Z"
+  }
+]
