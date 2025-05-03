@@ -5,7 +5,7 @@ const requestLogger = (req, res, next) => {
   console.log('📋 HEADERS:', JSON.stringify(req.headers, null, 2));
   
   // Log body if present, but don't consume it
-  const originalJson = req.json;
+  // const originalJson = req.json;
   req.json = async function(...args) {
     const body = await originalJson.apply(this, args);
     console.log('📦 PARSED JSON BODY:', JSON.stringify(body, null, 2));
